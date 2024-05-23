@@ -1,0 +1,230 @@
+.section-footer{
+    background-color: 
+    rgb(11, 117, 114);
+}
+.wrapper-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin-top: 246px;
+}
+.footer-list_left {
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.wrapper_list{
+    display: flex;
+    margin-top: 24px;
+    gap: 60px;
+} 
+.footer-titel{
+    color: rgb(255, 255, 255);
+    font-family:' Exo 2';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 16%;
+    text-align: left;   
+    @include hover
+}
+.foter-list_right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.footer-all_links {
+display: flex;
+flex-direction: column;
+gap: 32px;    
+}
+.footer_links {
+  display: flex;
+    gap: 14px;  
+}
+.footer-link_nuber {
+color: white;    
+@include hover
+}
+.footer-button {
+    width: 271px;
+    height: 42px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 150, 25);
+    background: rgb(255, 150, 25);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;            
+}
+.link_links{
+    transition: all 0.3s;
+    color: rgb(11, 117, 114);
+}
+.link_links:hover{
+@include hover
+}
+.button-img{
+    width: 14px;
+    margin-left: 14px;
+}
+.footer-link_truck{
+    width: 262px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 24px;
+}
+.footer_link{
+    display: inline-block;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-family: Exo 2;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 16%;    
+}
+@media (max-width:763px){
+    .footer_logo{
+        width: 93px;
+        height: 46px;
+    }
+    .footer-list_left {
+        display: flex;
+        flex-direction: column;
+        gap:13px;
+        }
+        .foter-list_right {
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+        }    
+    .footer-titel{
+        color: rgb(255, 255, 255);
+        font-family:' Exo 2';
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 16%;
+        text-align: left;  
+        @include hover
+    }
+    .footer_links {
+        display: flex;
+        gap: 25px;  
+    }
+    .link_links{
+        width: 14px;
+        height: 14px;
+    }
+    .footer-button {
+        width: 143px;
+        height: 21px;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 150, 25);
+        background: rgb(255, 150, 25);
+        color: rgb(255, 255, 255);
+        font-family: 'Open Sans';
+        font-size: 6px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0%;
+    }
+    .button-img{
+    width:7.66px;
+    margin-left: 19px;
+    }
+    .footer-link_truck{
+        width: 289px;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 24px;
+    }
+    .footer_link{
+        display: inline-block;
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        font-family: Exo 2;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 16%;    
+    }
+}
+@media (max-width:661px){
+    .wrapper-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 14px 146x 28px 45px;
+        margin-top: 25px;
+    }  
+    .wrapper_list{
+        display: flex;
+        margin-top: 24px;
+        gap: 60px;
+    }      
+    .footer-list_left {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+    .foter-list_right {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+    .link-size{
+        width: 9px;
+        height: 9px;
+    }
+    .footer_links {
+       display: flex;
+       margin-top: 17px;
+        gap: 4px;  
+      }
+      .footer-link_nuber {
+        color: white;    
+        margin-top: 63px;
+        color: rgb(255, 255, 255);
+        font-family:' Exo 2';
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0%;    
+    }   
+    .footer-button {
+        width: 294px;
+        height: 44px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 150, 25);
+        background: rgb(255, 150, 25);
+        color: rgb(255, 255, 255);
+        font-family: 'Open Sans';
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0%;                
+    }
+    .footer-link_truck{
+        width: 119px;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 24px;
+    }
+    .footer_link{
+        display: inline-block;
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        font-family: Exo 2;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 16%;    
+    }
+}

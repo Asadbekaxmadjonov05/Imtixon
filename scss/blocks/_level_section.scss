@@ -1,0 +1,110 @@
+.section-level{
+    margin-top: 80px;
+}
+.level-item{
+    color: rgb(54, 55, 56);
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;    
+}
+.wrapper-level_list {
+margin-left: 49px;
+}
+.list-level {
+    @include display($al:center, $jc:space-between);
+    width: 1183px;
+    height: 245px;
+    margin-top: 48px;
+    padding: 32px 132px 32px  96px;
+    gap: 56px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);        
+}
+.list-level_plus {
+    @include display($al:center, $jc:space-between);
+    width: 1183px;
+    height: 245px;
+    margin-top: 24px;
+    padding: 32px 132px 32px  96px;
+    gap: 56px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);        
+}
+.level-titel_line{
+    width: 86px;
+    margin-top: 24px;
+    border-bottom: 3px solid rgb(255, 206, 80);  
+}
+.level-img{
+    margin-top: 62px;
+}
+.level-text {
+    width: 538px;
+}
+.level-titel {
+    color: rgb(54, 55, 56);
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;    
+}
+
+.level-lorem {
+    color: rgb(107, 107, 108);
+    font-family:' PT Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;    
+    margin-top: 25px;
+}
+.level-img{
+    display:block;
+}
+.level__img{
+    display: none;
+}
+@media (max-width:763px){
+.wrapper-level_list {
+    margin-left: 29px;
+}
+.list-img{
+    display: none;
+}
+.list-level{
+    width: 628px;
+    height: 245px;
+    padding: 40px 76px 32px  96px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);        
+}
+.list-level_plus{
+    width: 628px;
+    height: 245px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);        
+}
+.level-img{
+    display: none;
+}
+.level__img{
+    display: block;
+    margin-top: 125px;
+}
+}
+@media (max-width:661px){
+   .wrapper-level_list, .level-item {
+    display:none;
+   } 
+   .level__img{
+    width: 327px;
+    height: 196.2px;
+   }
+}

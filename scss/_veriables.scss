@@ -1,0 +1,59 @@
+@mixin display($al:center, $jc:space-between){
+    display: flex;
+    align-items: $al;
+    justify-content: $jc;
+
+}
+
+@mixin buttonStyle($w:207px){
+    width: $w;
+    background: linear-gradient(45.00deg, rgb(255, 63, 58),rgb(247, 94, 5) 100%);    
+    padding: 15px 40px  ;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.4;
+    }
+}
+
+@mixin nuberStyle{
+    color: rgb(54, 55, 56);
+    font-family: 'Exo 2';
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;   
+    margin-bottom: 40px; 
+}
+@mixin textstyle{
+    color: rgb(107, 107, 108);
+    font-family: 'PT Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%; 
+    margin-bottom: 40px;   
+}
+
+@mixin pageList{
+    color: rgb(54, 55, 56);
+    font-family:' Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 0%;    
+}
+@mixin pageItem{
+    color: rgb(107, 107, 108);
+    font-family: 'PT Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;    
+}
+@mixin hover{
+    &:hover{
+        color: rgb(255, 150, 25);
+    }
+}

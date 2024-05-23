@@ -1,0 +1,112 @@
+.trak-page{
+    margin-top: 67px;
+}
+.trak-img{
+    width: 1200px;
+    height: 453px;
+    position: absolute;
+}
+.page-lorem{
+color: rgb(255, 255, 255);
+font-family: 'Exo 2';
+font-size: 48px;
+font-weight: 600;
+line-height: 125%;
+letter-spacing: 0%;
+text-align: left;    
+}
+.trac-box{
+    position: relative;
+    width: 749px;
+    height: 453px;
+    padding: 178px 317px 166px 90px;
+    background-color:rgb(11, 117, 114);;
+    clip-path: polygon(0 0, 55% 0, 91% 100%, 0% 100%);
+}
+
+.wrapper-list_trac {
+    display: flex;
+    margin: 72px 66px;
+    gap: 72px 140px;
+    flex-wrap: wrap;
+}
+.page-trac{
+    width: 447px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.page-trac_next{
+    width: 447px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.list-trac {
+    width: 291px;
+}
+.trac-lorem {
+    color: rgb(54, 55, 56);
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 0%;    
+}
+.trac-text {
+    color: rgb(107, 107, 108);
+    margin-top: 16px;
+    font-family:' PT Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;    
+}
+.trak-img{
+    display: block;
+}
+.trak__img{
+    display: none;
+}
+@media (max-width:763px){
+
+.trac-box{
+    position:relative;
+    width: 550px;
+    height: 383px;
+    padding: 112px 227px 106px 30px;
+    background-color:rgb(11, 117, 114);
+    clip-path: polygon(0 0, 31% 0, 64% 100%, 0% 100%);        
+}
+.page-lorem{
+    color: rgb(255, 255, 255);
+    font-family: 'Exo 2';
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;              
+}
+.wrapper-list_trac {   
+    display: block;
+    padding-left:100px;
+}
+.page-trac{
+    width: 383px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.trak-img{
+    display:none;
+}
+.trak__img{
+display:block;
+position: absolute;
+}
+}
+@media (max-width:661px){
+
+    .trac-section{
+        display: none;
+    }
+}

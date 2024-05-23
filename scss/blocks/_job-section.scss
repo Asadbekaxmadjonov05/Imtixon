@@ -1,0 +1,146 @@
+.section-job{
+    margin-top: 120px;
+}
+.page-job {
+    width: 504px;
+}
+.page-text{
+    color: rgb(54, 55, 56);
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;    
+}
+.page-job-lorem {
+    color: rgb(107, 107, 108);
+    margin-top: 32px;
+    font-family:' PT Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.wrapper-page-job {
+    @include display($al:center, $jc:space-between);
+    margin-top: 56px;
+    gap: 30px;
+}
+.list-job {
+    width: 393px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);  
+    position:relative;  
+}
+.list-job_minus{
+    width: 393px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);  
+    position:relative;
+}
+.list-job_plus{
+    width: 393px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);      
+}
+.wrapper-list-job{
+    margin: 32px 33px;
+}
+.job_img{
+object-fit: cover;
+}
+.job-item {
+    color: rgb(54, 55, 56);
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 0%; 
+    margin-bottom: 16px;   
+}
+.job-lorem {
+    color: rgb(107, 107, 108);
+    font-family:' PT Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 32px;    
+}
+.job-titel {
+    color: rgb(54, 55, 56);
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 0%;  
+}
+.job-titel_line{
+    width: 86px;
+    margin-top: 8.5px;
+    border-bottom: 3px solid rgb(255, 206, 80);  
+}
+
+@media (max-width:763px){
+    .wrapper-page-job {
+       display: block;
+       flex-direction: column;
+       margin-top: 40px;
+    }
+    .wrapper-list-job{
+        padding: 24px 10px 41px 32px;
+    }
+    .list-job_plus{
+        display: none;
+    }
+    .list-job{
+        display: block;
+        width: 690px;
+    }
+    .list-job_minus{
+       width: 690px;
+    }
+    .job_img{
+        display:none;
+
+    }
+    .job__img{
+        display: block;
+        object-fit:cover;
+    }
+}
+@media (max-width:661px){
+    .section-job{
+        margin-top: 34px;
+    }
+    .page-job {
+        display: block;
+        margin: 0 auto;
+        width: 336px;
+    }
+    .page-text{
+        color: rgb(54, 55, 56);
+        font-family: 'Exo 2';
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 125%;
+        letter-spacing: 0%;    
+    }
+    .list-job{
+    width: 345px;
+    }
+    .page-job-lorem{
+        color: rgb(107, 107, 108);
+        font-family:' PT Sans';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;    
+    }
+    .list-job_minus{
+    display: none;
+    }
+}
